@@ -2,14 +2,14 @@
 s1cFlatline was [written in 2003](https://sourceforge.net/projects/s1cflatline/files/) but is suprisingly still useful today. It runs silently in your terminal (like `screen` or `tmux`). As you "bounce" from system to system (forming a chain of remote terminal connections), it enables remote file upload and download "IN BAND" without requiring a separate file transfer connection to (or from) the target system. This assists with stealthiness as remote systems may be monitored for connection history, or in circumstances where a remote system is not permitted to initiate egress connections. The [original README](./README) might explain this more clearly.
 
 ```mermaid
-graph TD;
+graph LR;
     USER-->|ssh| HOST_A;
     HOST_A-->|rsh| HOST_B;
     HOST_B-->|telnet| HOST_C;
     HOST_C-->|raw TCP shell| HOST_D;
 ```
 
-Furthermore, s1cFlatline provides a special file (a FIFO) when executed on your main host (before connecting to other systems). Anything written into that file, is written into the active terminal session "in-band" as if you'd typed on the keyboard directly into that terminal. This allows for some degree of terminal automation external to the active terminal session. This can be particularly useful over slow links.
+Principally s1cflatline acts as a terminal logger (nothing new) but s1cFlatline futher provides a special file (a FIFO) when executed on your main host (before connecting to other systems). Anything written into that file, is written into the active terminal session "in-band" as if you'd typed on the keyboard directly into that terminal. This allows for some degree of terminal automation external to the active terminal session. This can be particularly useful over slow links.
 
 # Building/Compiling
 s1cflatline was always meant to be portable. Working on BSD and Linux systems of the time. Due to compiler and chip architecture changes since it was written (introduction of 64bit for example), the build is not as simple as `make` of the old README.
