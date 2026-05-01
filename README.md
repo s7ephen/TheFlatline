@@ -18,7 +18,7 @@ Instead, you may now have to run `make CFLAGS=-DSVR4=1` like so:
 
 ![s1cflatline_compile_flags_demo_720p.gif](README_md_files/s1cflatline_compile_flags_demo_720p.gif) ([MP4 version](README_md_files/s1cflatline_compile_flags_demo.mp4))
 
-**NOTE:** I have noticed some other issues with modern compilers and 64-bit systems and plan to fix/debug it so it can be as easily useful/compilable EVERYWHERE as it was back then.
+**NOTE:** <ins>I have noticed some other issues with modern compilers and 64-bit systems and plan to fix/debug it so it can be as easily useful/compilable EVERYWHERE as it was back then.</ins>
 
 # The Original README
 Written and circulated privately in early 2000s before being publicly [posted to Sourceforge](https://sourceforge.net/projects/s1cflatline/files/) in 2003. Although the [Sourceforge link](https://sourceforge.net/projects/s1cflatline/files/) is still live (at the time of this README), who knows how much longer Sourceforge will be, so this Github repo is meant as a backup. 
