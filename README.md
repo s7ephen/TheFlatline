@@ -27,6 +27,7 @@ The original README.TXT is [preserved here](./README).
 # How it was named:
 Dixie Flatline is a character from William Gibson's "Neuromancer". In the book's lore, it was a neural-network recording of the best hacker, who assisted the protagonist (Case) as he performed all the technical feats in the book's plot. The neural-recording (called a "construct") was an EXTREMELY valuable one-of-a-kind dataset kept deep in offline top-secret data vaults. Case and his team are first tasked with breaking-in and stealing the Flatline's "construct" so that The Flatline assist Case as he continued with his larger mission. Once obtained, Dixie Flatline would metaphorically look over Case's shoulder to assist Case with his exploits in cyberspace.
 
+https://github.com/user-attachments/assets/c29e45b4-5d76-4b1d-b9db-d5583f1e2fb5
 
-![CaseFirstRunOfDixieConstruct.mp4](README_md_files/CaseFirstRunOfDixieConstruct.mp4) (pure [MP3 version](README_md_files/CaseFirstRunOfDixieConstruct.mp3) of this clip)
+(pure [MP3 version](README_md_files/CaseFirstRunOfDixieConstruct.mp3) of this clip)
 These clips are taken from [this BBC's 2003 Radio-play version](https://archive.org/details/neuromancer-william-gibson) of "Neuromancer"
